@@ -1,4 +1,4 @@
-package ro.iss.finalchallenge
+package com.example.finalproject
 
 import org.junit.Test
 
