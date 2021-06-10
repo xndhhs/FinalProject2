@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FinalChallenge</string>
+    <string name="medical_blog_text">Medical Blog</string>
+    <string name="email_text">Email</string>
+    <string name="login_text">Login</string>
+    <string name="register_button_text">Don\'t have an account? Create one</string>
+    <string name="signup_text">Sign up for a free account</string>
+    <string name="signup_details_text">All fields must be completed</string>
+    <string name="password_text">Password</string>
+    <string name="first_name_text">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="country_text">Romania</string>
+    <string name="submit_text">Submit</string>
+    <string name="latest_news_text">Latest News</string>
+    <string name="news_summary_text">You will be able to see real time news from your own country. You can change the region any time you want</string>
+    <string name="experience_summary_text">Stay up to date with the latest information and share it in your network</string>
+    <string name="skip_button_text">Skip</string>
+    <string name="start_button_text">START</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="experience_header">People\'s experience</string>
+    <string name="next_button_text">Next</string>
+    <string name="student_text">Student</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+</resources>

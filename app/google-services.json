@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "223748933312",
+    "project_id": "finalchallenge-90d58",
+    "storage_bucket": "finalchallenge-90d58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223748933312:android:7f40db184891a856228f25",
+        "android_client_info": {
+          "package_name": "ro.iss.finalchallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223748933312-ff5ja6db7f8pi6bjt6bjkgndskou1mg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfDeiHmCB5SmwVT9GgjZx1VrkjH82-dcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223748933312-ff5ja6db7f8pi6bjt6bjkgndskou1mg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
