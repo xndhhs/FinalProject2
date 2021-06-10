@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aap="http://schemas.android.com/apk/res-auto"
+  xmlns:app="http://schemas.android.com/tools"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_margin="8dp"
+  android:padding="16dp"
+  app:cardElevation="5dp"
+  aap:cardCornerRadius="3dp">
+  <RelativeLayout
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+      android:id="@+id/image"
+      android:transitionName="img"
+      android:layout_width="match_parent"
+      android:layout_height="120dp"
+      android:layout_margin="8dp"
+      android:scaleType="centerCrop" />
+
+    <TextView
+      android:id="@+id/title"
+      android:text="Title"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:layout_marginHorizontal="16dp"
+      android:layout_below="@id/image" />
+
+    <TextView
+      android:id="@+id/description"
+      android:text="Description"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/title"
+      android:layout_marginHorizontal="16dp"
+      android:layout_marginBottom="8dp"
+      />
+
+    <TextView
+      android:id="@+id/category"
+      android:text="Category"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_below="@id/description"
+      android:layout_margin="16dp"
+      android:textStyle="bold"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:ellipsize="end" />
+
+    <TextView
+      android:id="@+id/source"
+      android:text="Source"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_below="@id/category"
+      android:layout_marginHorizontal="16dp"
+      android:textStyle="bold"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:ellipsize="end" />
+
+    <TextView
+      android:id="@+id/publishedAt"
+      android:text="01 January 1970"
+      android:layout_below="@+id/source"
+      android:layout_marginHorizontal="16dp"
+      android:layout_marginBottom="16dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+
+  </RelativeLayout>
+</androidx.cardview.widget.CardView>
